@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'Norse-Bold';
+    src: url(./fonts/Norse-Bold.otf) format('woff2');
+    src: url(./fonts/Norse-Bold.otf) format('woff');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left {
+    background-image: url(./images/kristijan-arsov-tcw3nwoAgvs-unsplash.jpg);
+    width: 35vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.odin-logo {
+    font-family: 'Norse-Bold', sans-serif;
+    color: whitesmoke;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20vh auto;
+    background-color: rgba(0, 0, 0, .5);
+    font-size: 6rem;
+}
+
+.logo-sidebar {
+    padding-right: 15px;
+    width: 120px;
+    height: 120px;
+}
+
+.footer {
+    color: white;
+    padding-top: 45%;
+    text-align: center;
+    align-items: center;
+}
+.right {
+    width: 65vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    background-color: rgb(240, 240, 240);
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    padding: 60px 60px 0 98px;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.middle {
+    background-color: white;
+    padding: 0 100px 50px 100px;
+    height: 30vh;
+    box-shadow: 0 0 50px 0 rgb(194, 194, 194);
+}
+
+.form-main {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-right: 50px;
+}
+
+input {
+    width: 200px;
+    border: 1px solid #E5E7EB;
+    height: 25px;
+    border-radius: 5px;
+    padding: .3em;
+}
+
+input:focus {
+    outline: blue;
+    box-shadow: 5px 5px rgb(175, 173, 173);
+}
+
+input:invalid {
+    border: 1px solid red
+}
+
+label {
+    font-size: 15px;
+}
+
+.error {
+    border-color: red;
+    font-size: 12px;
+}
+
+.error-msg {
+    color: red;
+    border-color: red;
+    font-size: 12px;
+}
+
+.bottom{
+    background-color: rgb(240, 240, 240);
+    height: 30vh;
+    padding: 40px 0 0 98px;
+}
+
+.btn {
+    background-color: #C6A969;
+    color: white;
+    border: 1px solid #C6A969;
+    outline: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 210px;
+    font-weight: bold;
+    font-size: 15px;
+    box-shadow: 5px 7px #e2e2e2;
+    cursor: pointer;
+}
+
+.hyperlink {
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.login {
+    color: #C6A969;
+    text-decoration: none;
+}
